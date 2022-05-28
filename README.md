@@ -1,5 +1,5 @@
 # Zomato Clone
-This project is a try to make zomato clone.Zomato is a one of the food 
+This project is a try to make zomato clone.Zomato is a one of leading the food 
 delivering company in India.
 
 ## Requirements
