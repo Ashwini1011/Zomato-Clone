@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Css Link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Zomato Clone</title>
+    <link rel="icon" href="./assets/images/favicon.ico.png">
+  </head>
+  <body>
+    <!-- Nabbar -->
+    <header>
+      <nav class="nav">
+        <div class="logo">
+          <img
+            class="img-logo"
+            src="./assets/images/zomato-logo.png"
+            alt="Zomato-logo"
+          />
+        </div>
+        <div class="search-container">
+          <div class="place-selection">
+            <img
+              class="location"
+              src="./assets/images/location.png"
+              alt="location"
+            />
+            <input
+              type="text"
+              class="search-place"
+              placeholder="Search your location"
+            />
+            <div class="down-arrow"><i class="fa-solid fa-caret-down"></i></div>
+            <hr class="rod" />
+          </div>
+
+          <div class="resto-selection">
+            <img
+              class="search-glass"
+              src="./assets/images/magnifying glass.png"
+              alt=""
+            />
+            <input
+              type="text"
+              class="search-resto"
+              placeholder="Search for restaurant, cuisine or a dish"
+            />
+          </div>
+        </div>
+
+        <div class="log-in">
+          <a href="#">Log in</a>
+        </div>
+        <div class="sign-up">
+          <a href="#">Sign up</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Links -->
+    <div class="all-links">
+      <div class="home">
+        <a href="#">Home</a>
+        <div class="slash">/</div>
+      </div>
+      <div class="country">
+        <a href="#">India</a>
+        <div class="slash">/</div>
+      </div>
+      <div class="city">
+        <a href="#">Pune</a>
+        <div class="slash">/</div>
+      </div>
+      <div class="selected-dish">Sev Tamatar Restaurants</div>
+    </div>
+
+    <!-- Delivery/Dine-out/Nightlife -->
+    <div class="delivery-option-main">
+      <div class="delivery-option">
+        <div class="delivery">
+          <div class="delivery-info">
+            <img
+              class="delivery-img"
+              src="./assets/images/Delivery.png"
+              alt="#delivery image"
+            />
+            <h2 class="delivery-text">Delivery</h2>
+          </div>
+          <hr />
+        </div>
+
+        <div class="dine-out">
+          <div class="dine-info">
+            <img
+              class="dine-img"
+              src="./assets/images/Dine-in.png"
+              alt="#dine out image"
+            />
+            <h2 class="dine-text">Dining Out</h2>
+          </div>
+          <hr />
+        </div>
+
+        <div class="nightlife">
+          <div class="nightlife-info">
+            <img
+              class="nightlife-img"
+              src="./assets/images/nightlife.png"
+              alt="#nightlife image"
+            />
+            <h2 class="nightlife-text">Nightlife</h2>
+          </div>
+          <hr />
+        </div>
+      </div>
+    </div>
+
+    <!-- Filter options -->
+    <div class="filter-options-main">
+      <div class="filter-options">
+        <div class="filter">
+          <div class="filter-container">
+            <img
+              class="filter-image"
+              src="./assets/images/bridge.png"
+              alt="filter icon"
+            />
+            <div class="filter-text">Filters</div>
+          </div>
+        </div>
+
+        <div class="filter">
+          <div class="filter-container">
+            <img
+              class="filter-image"
+              src="./assets/images/arrows.png"
+              alt="Delivery icon"
+            />
+            <div class="filter-text">Delivery Time</div>
+          </div>
+        </div>
+
+        <div class="filter">
+          <div class="filter-container">
+            <div class="filter-text">More Filters</div>
+            <img
+              class="down-image"
+              src="./assets/images/down-arrow.png"
+              alt="down-arrow icon"
+            />
+          </div>
+        </div>
+
+        <div class="filter">
+          <div class="filter-container">
+            <div class="filter-text">Cuisines</div>
+            <img
+              class="cuisines-image"
+              src="./assets/images/down-arrow.png"
+              alt="down-arrow icon"
+            />
+          </div>
+        </div>
+
+        <div class="filter">
+          <div class="filter-container">
+            <div class="filter-text ftext">Rating: 4.0+</div>
+          </div>
+        </div>
+
+        <div class="filter">
+          <div class="filter-container">
+            <div class="filter-text ftext">Pure Veg</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Inspiration for your 1st order -->
+    <div class="inspiration-main">
+      <div class="inspiration-main-container">
+        <h3 class="inspiration-text">Inspiration for your first order</h3>
+        <section class="inspi-container">
+          <section id="main-section" class="main-section"></section>
+          <div class="arrow"><i class="fa-solid fa-angle-right"></i></div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Top brands for you -->
+
+    <div class="top-main">
+      <div class="top-main-container">
+        <h3 class="top-text">Top brands for you</h3>
+        <section class="top-container">
+          <section id="main-section-two" class="main-section"></section>
+          <div class="arrow"><i class="fa-solid fa-angle-right"></i></div>
+        </section>
+      </div>
+    </div>
+
+    <!-- Delivery Resto text -->
+    <div class="delivery-resto">
+      <h1 class="resto-text">Delivery Restaurants in Pune</h1>
+    </div>
+
+    <!-- Food Cards -->
+    <div id="container" class="container"></div>
+
+    <!-- Prefooter and footer -->
+    <div class="prefooter">
+      <div class="prefooter-container">
+        <div class="explore-options">Explore other for you here</div>
+        <!-- Popular Cusines -->
+        <div class="popular-cusines">Popular cusines near me</div>
+        <div class="near-me-list">
+          <span class="one"></span>
+          <a href="#">Bakery food near me</a>
+          <span></span>
+          <a href="#">Beverages food near me</a>
+          <span></span>
+          <a href="#">Biryani food near me</a>
+          <span></span>
+          <a href="#">Burger food near me</a>
+          <span></span>
+          <a href="#">Chinese food near me</a>
+          <span></span>
+          <a href="#">continental food near me</a>
+          <span></span>
+          <a href="#">Desserts food near me</a>
+          <span></span>
+          <a href="#">Icecream food near me</a>
+          <span></span>
+          <a href="#">Kebab food near me</a>
+          <span></span>
+          <a href="#">Maharashtrian food near me</a>
+          <span></span>
+          <a href="#">Momos food near me</a>
+          <span></span>
+          <a href="#">Muglai food near me</a>
+          <span></span>
+          <a href="#">North Indian food near me</a>
+          <span></span>
+          <a href="#">Pizza food near me</a>
+          <span></span>
+          <a href="#">Rolls food near me</a>
+          <span></span>
+          <a href="#">Sandwich food near me</a>
+          <span></span>
+          <a href="#">Seafood food near me</a>
+          <span></span>
+          <a href="#">Shake food near me</a>
+          <span></span>
+          <a href="#">South Indian food near me</a>
+          <span></span>
+          <a href="#">Street food near me</a>
+        </div>
+
+        <!-- Popular Restaurants -->
+        <div class="popular-restaurants">Popular restaurant types near me</div>
+        <div class="near-me-list">
+          <span class="one"></span>
+          <a href="#">Bakeries near me</a>
+          <span></span>
+          <a href="#">Bars near me</a>
+          <span></span>
+          <a href="#">Beverages near me</a>
+          <span></span>
+          <a href="#">Bhojanalaya near me</a>
+          <span></span>
+          <a href="#">Cafes near me</a>
+          <span></span>
+          <a href="#">Casual Drinks near me</a>
+          <span></span>
+          <a href="#">Clubs near me</a>
+          <span></span>
+          <a href="#">Cocktails Bars near me</a>
+          <span></span>
+          <a href="#">Confectioneries near me</a>
+          <span></span>
+          <a href="#">Dessert Parlors near me</a>
+          <span></span>
+          <a href="#">Dhabas near me</a>
+          <span></span>
+          <a href="#">Fine near me</a>
+          <span></span>
+          <a href="#">Food Courts near me</a>
+          <span></span>
+          <a href="#">Food Trucks near me</a>
+          <span></span>
+          <a href="#">Irani Cafes near me</a>
+          <span></span>
+          <a href="#">Kiosks near me</a>
+          <span></span>
+          <a href="#">Launges near me</a>
+          <span></span>
+          <a href="#">Quick Bites near me</a>
+          <span></span>
+          <a href="#">Microbreweries near me</a>
+          <span></span>
+          <a href="#">Paan Shops near me</a>
+        </div>
+
+        <div class="chains">Top Restaurant Chains</div>
+        <div class="near-me-list-chains">
+          <a href="#">Bikanerwala</a>
+          <a href="#">Burger King</a>
+          <a href="#">Domino's</a>
+          <a href="#">Dunkin's Donuts</a>
+          <a href="#">Haldiram's</a>
+          <a href="#">KFC</a>
+          <a href="#">Krispy Kreme</a>
+          <a href="#">McDonald's</a>
+          <a href="#">Pizza Hut</a>
+          <a href="#">WOW! Momo</a>
+        </div>
+
+        <div class="delivery-cities">Cities We Deliver To</div>
+        <div class="near-me-list-cities">
+          <a href="#">Delhi</a>
+          <a href="#">Kolkata</a>
+          <a href="#">Mumbai</a>
+          <a href="#">Bengaluru</a>
+          <a href="#">Pune</a>
+          <a href="#">Hyderabad</a>
+          <a href="#">Chennai</a>
+          <a href="#">Lucknow</a>
+          <a href="#">Kochi</a>
+          <a href="#">Jaipur</a>
+          <a href="#">Ahemadabad</a>
+          <a href="#">Chandigarh</a>
+          <a href="#">Goa</a>
+          <a href="#">Indore</a>
+          <a href="#">Nashik</a>
+          <a href="#">Ooty</a>
+          <a href="#">Shimala</a>
+          <a href="#">Ludhiana</a>
+          <a href="#">Guwahati</a>
+          <a href="#">Amritsar</a>
+          <a href="#">Kanpur</a>
+          <a href="#">Allahabad</a>
+          <a href="#">Aurangabad</a>
+          <a href="#">Bhopal</a>
+          <a href="#">Ranchi</a>
+          <a href="#">Nagpur</a>
+          <a href="#">Agra</a>
+          <a href="#">Patna</a>
+          <a href="#">Mysor</a>
+          <a href="#">Surat</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-container">
+        <div class="footer-heading">
+          <div class="logo-zom">
+            <img
+              class="img-logo-zomatos"
+              src="./assets/images/zomato-logo.png"
+              alt="Zomato-logo"
+            />
+          </div>
+          <div class="footer-button">
+            <div class="india-button">
+              <img src="./assets/images/flag.png" alt="flag" />
+              <p>India</p>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+            <div class="india-button">
+              <i class="fa-solid fa-globe"></i>
+              <p>English</p>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-about">
+          <!-- Footer 1st column -->
+          <div class="about-zomato-main">
+            <div class="about-zomato">
+              <a
+                class="about-heading"
+                style="letter-spacing: 2px; color: #1c1c1c"
+                href="#"
+                >ABOUT ZOMATO</a
+              >
+              <a href="#">WHO We Are</a>
+              <a href="#">Blog</a>
+              <a href="#">Work With Us</a>
+              <a href="#">Investor Relations</a>
+              <a href="#">Report Fraud</a>
+            </div>
+
+            <div class="about-zomato">
+              <a
+                class="about-heading"
+                style="letter-spacing: 2px; color: #1c1c1c"
+                href="#"
+                >ZOMAVERSE</a
+              >
+              <a href="#">Zomato</a>
+              <a href="#">Feeding India</a>
+              <a href="#">Hyperpure</a>
+              <a href="#">Zomaland</a>
+              <a href="#"></a>
+            </div>
+
+            <div class="about-zomato">
+              <a
+                class="about-heading"
+                style="letter-spacing: 2px; color: #1c1c1c"
+                href="#"
+                >FOR RESTAURANTS</a
+              >
+              <a href="#">Partner With Us</a>
+              <a href="#">Apps For You</a>
+              <a href="#"></a>
+              <a href="#"></a>
+              <a
+                class="about-heading"
+                style="letter-spacing: 2px; color: #1c1c1c"
+                href="#"
+                >FOR ENTERPRISES</a
+              >
+              <a href="#">Zomato For Work</a>
+            </div>
+
+            <div class="about-zomato">
+              <a
+                class="about-heading"
+                style="letter-spacing: 2px; color: #1c1c1c"
+                href="#"
+                >LEARN MORE</a
+              >
+              <a href="#">Privacy</a>
+              <a href="#">Security</a>
+              <a href="#">Terms</a>
+              <a href="#">Sitemap</a>
+            </div>
+          </div>
+          <div class="about-zomato">
+            <a
+              class="about-heading"
+              style="letter-spacing: 2px; color: #1c1c1c"
+              href="#"
+              >SOCIAL LINKS</a
+            >
+            <div class="social-links">
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-instagram-square"></i>
+              <i class="fa-brands fa-twitter-square"></i>
+              <i class="fa-brands fa-youtube-square"></i>
+              <i class="fa-brands fa-facebook-square"></i>
+            </div>
+            <div class="india-button-down">
+              <i class="fa-brands fa-apple"></i>
+              <div class="app-down">
+                <span class="download">Download from</span>
+                <span class="app-store">App Store</span>
+              </div>
+            </div>
+            <div class="india-button-down">
+              <i class="fa-brands fa-google-play"></i>
+              <div class="app-down">
+                <span class="download">Download from</span>
+                <span class="app-store">Google-Play</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="bottom" />
+        <p class="bottom">
+          By continuing past this page, you agree to our Terms of Service,
+          Cookie Policy, Privacy Policy and Content Policies. All trademarks are
+          properties of their respective owners. 2008-2022 © Zomato™ Ltd. All
+          rights reserved.
+        </p>
+      </div>
+    </div>
+
+    <script src="./assets/js/script.js" type="module"></script>
+  </body>
+</html>
