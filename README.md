@@ -1,5 +1,6 @@
+
 # Zomato Clone
-This project is a try to make zomato clone.Zomato is a one of leading the food 
+This project is a try to make zomato clone.Zomato is a one of the food 
 delivering company in India.
 
 ## Requirements
@@ -38,10 +39,14 @@ delivering company in India.
 
 ## Output
 
-![App Screenshot](https://github.com/Ashwini1011/Zomato-Clone/blob/master/zomato-1-1.png)
+![App Screenshot](https://github.com/Ashwini1011/Zomato-Clone/blob/master/zomato-1-1%20(2).png)
+### Top brands for you
 ![App Screenshot](https://github.com/Ashwini1011/Zomato-Clone/blob/master/zomato-1-2.png)
+### Food Options
 ![App Screenshot](https://github.com/Ashwini1011/Zomato-Clone/blob/master/zomato-1-3.png)
+### Prefooter
 ![App Screenshot](https://github.com/Ashwini1011/Zomato-Clone/blob/master/zomato-1-4.png)
+### Footer
 ![App Screenshot](https://github.com/Ashwini1011/Zomato-Clone/blob/master/zomato-1-5.png)
 
 
