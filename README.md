@@ -1,5 +1,5 @@
 
-# Zomato Clone
+# Zomato Clone (Responsive)
 This project is a try to make zomato clone.Zomato is a one of the food 
 delivering company in India.
 
